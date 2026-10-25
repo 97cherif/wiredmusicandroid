@@ -48,8 +48,6 @@ object AudioTap : BaseAudioProcessor() {
     }
 }
 
-private val ICE = Color(0xFF96D6E8)
-private val ICE2 = Color(0xFFD6F2FA)
 private val OFFS = floatArrayOf(0f, 12f, 26f)
 private val FAC = floatArrayOf(1f, .72f, .5f)
 private val ALP = floatArrayOf(40f, 32f, 26f)
